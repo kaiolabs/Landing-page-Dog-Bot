@@ -22,6 +22,11 @@
 
 /* -------------------------------------------------------------------------- */
 
+html{
+    position:relative; 
+    min-height: 100%;
+  }
+
 body{
     margin: 0px;
     padding: 0px;
@@ -41,7 +46,7 @@ body{
     float: left;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 18px;
     text-decoration: none;
 }
 
@@ -50,15 +55,16 @@ body{
 }
 
 .card{
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
     text-align: center;
     display: flex;
 }
 
 .card_conteudo{
     color: white;
-    padding-top: 9%;
-    padding-left: 10%;
-    padding-right: 20%;
+    padding-right: 16%;
 }
 
 .card_conteudo h1{
@@ -73,18 +79,106 @@ body{
 }
 
 .card_conteudo a{
-    background-color: #5AD7FF;
+    background-color: #1ec7ff;
     color: white;
-    padding: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
-    border-radius: 22px;
+    padding: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 25px;
     font-family: 'Sarala', sans-serif;
     text-decoration: none;
+    font-size: 20px;
+}
+
+.card_conteudo a:hover{
+    background-color: #06afe8;
 }
 
 img{
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+section{
+    align-items: center;
+}
+section h3{
+    font-family: 'Sarala', sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-left: 37%;
+    margin-right: 37%;
+    line-height: 180%;
+    
+}
+
+.card2{
+    margin-bottom: 140px;
+}
+
+.cardanimado{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    }
+
+.cardanimado_unity{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    color: white;
+    height: 380px;
+    width: 240px;
+    border-radius: 15px;
+    margin: 40px;
+    background-color: #282A35;
+    box-shadow: 20px 20px 50px #00000080;
+    border-top: 1px solid #ffffff80;
+    border-left: 1px solid #ffffff80;
+    }
+    
+.cardanimado div p{
+    font-family: 'Sarala', sans-serif;
+    line-height: 130%;
+    padding-top: 180px;
+    
+    }
+
+.cardanimado div h1 {
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    font-size: 90px;
+    color: #ffffff80;
+    }
+
+footer {
+    color: white;
+    border-top: 1px solid #5AD7FF;
+    font-family: 'Sarala', sans-serif;
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+
+.redesSociais{
+    line-height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

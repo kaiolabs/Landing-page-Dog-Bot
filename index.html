@@ -13,10 +13,10 @@
     <header class="menu">
         <nav>
             <a href="#">Comunidade Dog Bot</a>
-            <a href="#">Open Souce</a>
+            <a href="https://github.com/kaiolabs/Landing-page-Dog-Bot">Open Souce</a>
             <a href="#">Tutorial</a>
-            <a href="#">Saiba Mais</a>
-            <a style="float:right" href="#">Inscrever-se</a>
+            <a href="https://github.com/kaiolabs">Saiba Mais</a>
+            <a style="float:right" href="https://www.linkedin.com/in/kaioviniciusdev">Inscrever-se</a>
         </nav>
     </header>
 
@@ -32,22 +32,48 @@
                     <img src="dogbot.png">
                 </div>
             </div>
-            <div>
-                <h3>O que ele faz ?</h3>
-                <p>1 - Guia de como <strong>adestrar</strong> seu doguinho.</p>
-                <p>2 - Possuir um <strong>sistema de lembretes</strong> que você poderá vincula com seu Discord para receber as notificações</p>
-                <p>3 - Possuir um <strong>sistema de dicas diárias</strong> sobre <strong>alimentação e cuidados</strong> adequados para a saúde do seu doguinho.</p>
+
+            <h3>O que ele faz ?</h3>
+
+            <div class="card2">
+                <div class="cardanimado">
+                    <div class="cardanimado_unity">
+                        <h1>01</h1>
+                        <p>Guia de como <strong>adestrar</strong> seu doguinho.</p>
+                    </div>
+                    <div class="cardanimado_unity">
+                        <h1>02</h1>
+                        <p>Possuir um <strong>sistema de lembretes</strong> que você poderá vincula com seu Discord para receber as notificações</p>
+                    </div>
+                    <div class="cardanimado_unity">
+                        <h1>03</h1>
+                        <p>Possuir um <strong>sistema de dicas diárias</strong> sobre <strong>alimentação e cuidados</strong> adequados para a saúde do seu doguinho.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Site desenvolvido por Kaio Vinicius.</p>
-        <a href="https://www.linkedin.com/in/kaioviniciusdev"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-        <a href="https://github.com/kaiolabs"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
-        <p></p>
-
+        <div class="redesSociais">
+            <p>Redes Sociais</p>
+            <div>
+                <a href="https://www.linkedin.com/in/kaioviniciusdev"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+                <a href="https://github.com/kaiolabs"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+            </div>
+        </div>
+        <p style="padding-top: 5px;">Site desenvolvido por Kaio Vinicius</p>
     </footer>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".cardanimado_unity"),{
+            max: 25,
+            speed:400,
+            glare: true,
+            "max-glare": 0.5,
+        });
+    </script>
 
 </body>
 </html>
