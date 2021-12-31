@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
+.body_gradient{
+    background: linear-gradient(-180deg, #282A35 70%,#0890bd);
+}
+
+
 /* -------------------------------------------------------------------------- */
 * {
     scrollbar-width: thin;
@@ -34,6 +39,8 @@ body{
 }
 
 .menu{
+    padding-right: 20px;
+    padding-left: 30px;
     border-bottom: 1px solid #5AD7FF;
     display: block;
     overflow: hidden;
@@ -51,7 +58,7 @@ body{
 }
 
 .menu nav a:hover{
-    background-color:#5AD7FF;
+    color:#5AD7FF;
 }
 
 .card{
@@ -109,9 +116,10 @@ section h3{
     color: white;
     text-align: center;
     border-bottom: 1px solid white;
-    margin-left: 37%;
-    margin-right: 37%;
-    line-height: 180%;
+    border-color: #5AD7FF;
+    margin-left: 38%;
+    margin-right: 38%;
+    line-height: 190%;
     
 }
 
@@ -167,8 +175,9 @@ footer {
     color: white;
     border-top: 1px solid #5AD7FF;
     font-family: 'Sarala', sans-serif;
+    font-size: 18px;
     justify-content: space-around;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     position: absolute;
     bottom: 0;
