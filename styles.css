@@ -4,7 +4,6 @@
     background: linear-gradient(-180deg, #282A35 70%,#0890bd);
 }
 
-
 /* -------------------------------------------------------------------------- */
 * {
     scrollbar-width: thin;
@@ -65,8 +64,10 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    margin-bottom: 70px;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card_conteudo{
@@ -115,12 +116,14 @@ section h3{
     font-size: 45px;
     color: white;
     text-align: center;
-    border-bottom: 1px solid white;
-    border-color: #5AD7FF;
+    line-height: 10%;
+    
+}
+
+.linha{
+    border-bottom: 1px solid #5AD7FF;
     margin-left: 38%;
     margin-right: 38%;
-    line-height: 190%;
-    
 }
 
 .card2{
